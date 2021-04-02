@@ -8,7 +8,7 @@ public class DbConnector {
 	private Connection con;
 	private String dbDriver = "com.mysql.cj.jdbc.Driver";
 	private String dbUser = "root";
-	private String dbPsw = "990926zwy";
+	private String dbPsw = "123456";
 	private String dbUrl = "jdbc:mysql://localhost:3306/xcglxt?serverTimezone=UTC";
 
 	public Connection getConnection() {
